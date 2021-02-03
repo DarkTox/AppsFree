@@ -1,0 +1,124 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background: #000;
+    color: #FFF;
+}
+
+h1 {
+    text-align: center;
+}
+
+header {
+    background: rgba(171, 68, 255, 0);
+}
+
+ul  {
+    list-style: none;
+    padding: 0;
+    background: none;
+    width: 47%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+ul li a {
+	text-decoration: none;
+	color: #FFF;
+	padding: 10px;
+	display: block;
+}
+
+ul li a b {
+	animation-name: colores;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+ul li {
+	display: inline-block;
+    position: relative;
+    left: 68px;
+}
+
+ul li a:hover {
+	color: #FFF;
+	font-size: 25px;
+}	
+
+footer {
+    text-align: center;
+}
+
+img {
+    margin-left: 140px;
+}
+
+button {
+	margin-left: 525px;
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 24px;
+    border: 1px solid #51a4ed;
+    border-radius: 8px;
+    background: #ff4a4a;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff4a4a), to(#6b2699));
+    background: -moz-linear-gradient(top, #ff4a4a, #6b2699);
+    background: linear-gradient(to bottom, #ff4a4a, #6b2699);
+    -webkit-box-shadow: #ff5959 0px 0px 40px 0px;
+    -moz-box-shadow: #ff5959 0px 0px 40px 0px;
+    box-shadow: #ff5959 0px 0px 40px 0px;
+    text-shadow: #591717 1px 1px 1px;
+    font: normal normal bold 23px comic sans ms;
+    color: #e6d8e3;
+    text-decoration: none;
+}
+
+button {
+    background: rgba(170, 255, 51, 0);
+}
+
+.sidenav {
+	height: 100%; 
+	width: 180px; 
+	position: fixed; 
+	z-index: 1; 
+	top: 0; 
+	left: 0;
+	background-color: #111;
+	overflow-x: hidden; 
+	padding-top: 20px;
+  }
+
+  .sidenav a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+  }
+  
+  .sidenav a:hover {
+	color: #f1f1f1;
+  }
+  
+  .main {
+	margin-left: 180px; 
+	padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
+  }
+
+.Logo {
+    margin-left: 25px;
+}
+
+button a {
+    text-decoration: none;
+}
